@@ -1,0 +1,244 @@
+/*
+    Color variables from google MD palettes
+    Find and replace with correspondent color.
+
+    BLUE SET
+
+    main-col: #2196f3; a500
+    secondary-col: #42a5f5; a400
+    tertiary-col: #90caf9; a200
+    text-light-col:#FFFFFF; white
+    text-dark-col: rgba(0,0,0,0.66); dark alpha
+    background-col: #ffffff; white
+*/
+
+html,body {
+    background-color: #42a5f5; /*a400*/
+}
+
+/** CSS FOR PAGE HEADING STYLE **/
+
+.page-head {
+    background-color: #2196f3; /*a500*/
+}
+
+.page-head-title {
+    color:#ffffff;
+
+}
+
+.page-head-description {
+    color:#ffffff;
+}
+
+.rounded {
+    border:1px solid #ffffff;
+}
+
+/************************************/
+
+/** CSS FOR MAIN CONTAINER TYPE IN ioLayout **/
+
+.well-container {
+    background-color: white;
+    color: rgba(0,0,0,0.66);
+}
+
+
+
+.well-title {
+    background-color: rgba(0,0,0,0.66);
+    color:white;
+}
+
+.well-footer {
+     color:white;
+        background-color: rgba(0,0,0,0.66);
+}
+
+/***********************************************/
+
+
+/** CSS FOR VERTICAL-TYPE FULL WIDTH LISTS **/
+
+
+.list-vertical-item {
+    background-color: #ffffff;
+    color: rgba(0,0,0,0.66);
+    border-left:10px solid #42a5f5;
+}
+
+.item-badge {
+
+    background-color: #42a5f5 ; /*a400*/
+    color:white;
+
+
+}
+
+.list-vertical-item:hover {
+    background-color: #42a5f5; /*a400*/
+    color:#ffffff;
+}
+
+/*********************************************/
+
+/** CSS FOR HORIZONTAL NAVBARS **/
+
+nav {
+    background-color: #2196f3;
+}
+
+.mobileNav {
+  background-color: #2196f3;
+  color:#ffffff;
+}
+
+
+.mobileNav > .navItem,.mobileNav > a > .navItem {
+  background-color: #2196f3;
+}
+
+
+.mobileNav > .navItem:hover,.mobileNav > a > .navItem:hover {
+  background-color: #42a5f5;
+
+}
+
+.nav {
+  background-color:#2196f3;
+  color:#ffffff;
+}
+
+.nav > .navItem > .navSubMenu  {
+  background-color: #2196f3;
+  
+}
+
+.nav > .navItem > .navSubMenu >.navSubItem:hover,.nav > .navItem > .navSubMenu > a >.navSubItem:hover {
+  background-color:#90caf9
+}
+
+.navToggle {
+  background-color: #2196f3;
+}
+
+a > .navItem.active {
+       /*border-bottom:2px solid white;
+       box-sizing:border-box;*/
+}
+
+.subItem:hover {
+    background-color: #42a5f5;
+}
+
+/************************************/
+
+/** CSS FOR FORM STYLING **/
+
+.form-text {
+    color:rgba(0,0,0,0.66); /*dark alpha*/
+    border:0;
+    border-left:10px solid #42a5f5; /*a400*/
+    background-color: #ffffff;
+}
+
+.form-text:hover {
+    color:black;
+    border-color: #42a5f5; /*a400*/
+}
+
+.form-textarea {
+    color:  rgba(0,0,0,0.66);
+    border:0;
+    border-left:10px solid #42a5f5; /*a400*/
+    border-left: 10px solid #42a5f5; /*a400*/;
+    background-color: #ffffff;
+}
+
+.form-textarea:hover {
+    color:black;
+    border-left: 10px solid #42a5f5; /*a400*/
+}
+
+.form-select {
+    border-left:10px solid #42a5f5;
+    background: url('../icons/dropdown-arrow.png') no-repeat right center #42a5f5;
+}
+
+.form-select > select  {
+    background: transparent;
+    color:white;
+}
+
+.form-submit {
+    background-color: #ffffff;
+    color:#42a5f5; /*a400*/
+    border: 1px solid #42a5f5; /*a400*/
+}
+
+.form-submit:hover {
+    background-color: #42a5f5; /*a400*/
+    color:#ffffff;
+    border: 1px solid #42a5f5; /*a400*/
+}
+
+.form-submit:disabled {
+    color:grey;
+    border-color: grey;
+}
+
+.form-submit:disabled:hover {
+    background-color: #ffffff;
+    color: grey;
+}
+
+.inline-form > .form-text {
+    border-color: #42a5f5; /*a400*/
+}
+
+
+.inline-form > .form-submit {
+    background-color: #42a5f5; /*a400*/
+    color:white;
+}
+
+.hasError {
+    border-left: 10px solid red;
+}
+
+.hasError:hover {
+   border-left: 10px solid red;
+}
+
+.hasSuccess {
+    border-left: 10px solid green;
+}
+
+.hasSuccess:hover{
+    border-left: 10px solid green;
+}
+
+.hint {
+    border-left:10px solid red;
+}
+
+.hint:hover {
+    border-left:10px solid black;
+}
+
+/**********************************************************/
+
+.stacked {
+}
+
+.page-footer {
+    background-color: rgba(0,0,0,0.66); /*--main-col*/
+    color:white;
+}
+
+/**************************************/
+.btn {
+        background-color:#42a5f5;
+
+}

@@ -1,0 +1,53 @@
+@media screen and (max-width: 720px) {
+
+/** CSS RESPONSIVE FOR HORIZONTAL NAVBARS **/
+
+  .nav {
+    display:none;
+  }
+  
+      .navToggle {
+        display:block;
+        cursor:pointer;
+    }
+
+
+/*******************************************/
+
+
+    .page-container {
+        width:100%;
+        margin-left:auto;
+        margin-right: auto;
+    }
+    
+    .page-container.flexy {
+        width: 90%;
+        float:none;
+        margin-left:auto;
+        margin-right: auto;
+        padding-bottom:0px;
+        padding-top:0px;
+    }
+   
+    .page-container.flexy:first-of-type {
+       padding-top:20px;
+    }
+
+}
+
+@media screen and (min-width: 720px) {
+  .nav {
+    display:block;
+  }
+
+  .navToggle {
+    display:none;
+  }
+
+  .mobileNav {
+    display: none;
+  }
+
+}
+

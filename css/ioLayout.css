@@ -1,0 +1,418 @@
+@import 'blue.css';
+
+
+html,body {
+    font-family: 'Open Sans', sans-serif;
+    overflow-x:hidden;
+    padding:0;
+    margin:0;
+}
+
+
+p {
+    margin:0;
+    padding:0;
+}
+
+.nojs {
+    display: none;
+}
+
+
+/** CSS FOR PAGE HEADING STYLE **/
+
+header {
+    position: relative;
+     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.page-head {
+    width:100%;
+    height: 200px;
+}
+
+.page-head-title {
+    line-height: 100px;
+    width:80%;
+    font-size:30px;
+}
+
+.page-head-description {
+    margin-top:30px;
+    font-size:20px;
+}
+
+.rounded {
+    border:1px solid #ffffff;
+    padding:10px;
+    border-radius:10px;
+}
+
+/************************************/
+
+/** CSS FOR MAIN CONTAINER TYPE IN ioLayout **/
+
+.well-container {
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 1px;
+    margin-bottom: 20px;
+    width: 90%;
+    overflow-y:auto;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.well-title {
+    padding:2% 0.5% 2% 2%;
+}
+
+
+.well-content {
+    padding: 2%;
+    padding-top:20px;
+}
+
+.well-footer {
+   padding:2%;
+}
+
+/***********************************************/
+
+
+/** CSS FOR VERTICAL-TYPE FULL WIDTH LISTS **/
+
+.list-vertical { margin: 0; padding: 0; }
+
+.list-vertical-item {
+    position: relative;
+    height: 45px;
+    line-height: 45px;
+    cursor:pointer;
+    vertical-align: middle;
+    box-sizing: border-box;
+
+}
+
+.list-vertical-item a {
+    display: block;
+    width: 200%;
+    color:rgba(0,0,0,0.66);
+    text-decoration: none;
+}
+
+.item-badge {
+    font-size: 10px;
+    font-weight: bold;
+    position: absolute;
+    left:calc(100% - 60px);
+    top:calc(50% - 15px);
+    height: 30px;
+    width: 50px;
+    text-align:center;
+    line-height: 30px;
+}
+
+.item-content {
+    width: 50%;
+    text-indent: 1.5%;
+}
+
+.list-vertical-item:hover  a {
+    color:white;
+}
+
+.list-vertical-item:hover > .item-badge {
+
+}
+
+.list-vertical-item:first-child {
+    border-top-left-radius: 1px;
+    border-top-right-radius: 1px;
+}
+
+.list-vertical-item:last-child {
+    border-bottom-left-radius: 1px;
+    border-bottom-right-radius: 1px;
+}
+
+/*********************************************/
+
+/** CSS FOR HORIZONTAL NAVBARS **/
+
+nav {
+    display: block;
+    width: 100%;
+    transition: box-shadow 0.3s ease-in-out 0s;
+    transition: position 0.3s ease-in-out 0s;
+}
+
+
+a {
+  text-decoration:none;
+  color:inherit;
+}
+
+.nav {
+  margin-left: 1%;
+  height: 40px;
+}
+
+.nav > .navItem, .nav > a > .navItem {
+  width: 150px;
+  position: relative;
+  float:left;
+  margin-left:0;
+  height:
+  40px;
+  line-height: 40px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.nav >.navItem > .navSubMenu {
+  display: none;
+  position:absolute;
+  left:0;
+  top:100%;
+  width: 100%;  
+}
+
+
+.nav > .navItem:hover > .navSubMenu {
+  display: block;
+    
+}
+
+.navItem:hover {
+      box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+
+.nav > a > .navItem:hover {
+        box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+
+
+.navToggle {
+  width:100%;
+  color:white;
+  text-align: center;
+  height: 40px;
+  line-height: 40px;
+}
+
+.mobileNav {
+  width:100%;
+  display:none;
+}
+
+.mobileNav:target {
+  display: block;
+}
+
+
+.mobileNav > .navItem, .mobileNav > a > .navItem {
+  position:relative;
+  text-align: center;
+  padding-top:10px;
+  padding-bottom:10px;
+}
+
+.mobileNav > .navItem > .navSubMenu {
+  display:none;
+  margin-top:10px;
+  margin-bottom:-10px;
+}
+
+.mobileNav > .navItem > .navSubMenu > a >.navSubItem {
+  padding-top:10px;
+  padding-bottom:10px;
+}
+
+
+.active  {
+    font-weight: bolder;
+}
+
+.list-right {
+    float:right;
+}
+
+.list-left {
+    float:left;
+}
+
+/************************************/
+
+/** CSS FOR FORM STYLING **/
+
+.form-text {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    margin-bottom:1%;
+    padding-top:1%;
+    padding-bottom:1%;
+    text-indent: 1%;
+    width: 100%;
+    font-size:15px;
+    box-sizing: border-box;
+    height:45px;
+}
+
+.form-text:hover {
+}
+
+
+
+.form-textarea {
+    font-size:15px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    padding-top:1%;
+    padding-bottom: 1%;
+    text-indent:1%;
+    margin-bottom: 1%;
+    width: 100%;
+    resize: none;
+    box-sizing: border-box;
+}
+
+.form-textarea:hover {
+}
+
+.form-select {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 1%;
+}
+
+.form-select > select  {
+    border:0;
+    width: 100%;
+    height: 40px;
+    -moz-appearance: none;
+    -webkit-appearence:none;
+    appearence:none;
+    text-indent: 1%;
+}
+
+
+
+
+.form-submit {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    padding-bottom:1%;
+    padding-top:1%;
+    width: 100%;
+    cursor:pointer;
+    box-sizing: border-box;
+    height:45px;
+    line-height: 10px;
+    margin-top:3%;
+
+}
+
+.form-submit:hover {
+}
+
+.form-submit:disabled {
+}
+
+.form-submit:disabled:hover {
+}
+
+.inline-form > .form-text {
+    float:left;
+    width: 80%;
+    height: 45px;
+}
+
+
+.inline-form > .form-submit {
+    width: 20%;
+    border-left: 0px;
+    float:left;
+    height: 45px;
+    margin-top:0;
+}
+
+.hasError {
+}
+
+.hasError:hover {
+}
+
+.hasSuccess {
+}
+
+.hasSuccess:hover{
+}
+
+.hint {
+    display: block;
+    padding-left:1%;
+}
+
+.hint:hover {
+}
+/**********************************/
+
+
+
+
+.page-container {
+    padding-top:20px;
+    padding-bottom: 20px;
+    width:100%;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+.page-container.flexy {
+    margin-left:1%;
+    margin-right: 1%;
+    width: 48%;
+    float:left;
+}
+
+.page-container.flexy > .well-container {
+    width: 100%;
+}
+
+footer {
+    clear: both;
+    height: 100px;
+}
+
+.page-footer {
+    width:100%;
+    height: 100%;
+    text-align:center;
+    line-height:95px;
+    word-wrap: break-word;
+    font-size:70%;
+}
+
+.stacked {
+    box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.33);
+    
+}
+
+/**************************************/
+
+.btn {
+    box-sizing: border-box;
+    padding:10px;
+    border-radius: 10px;
+    outline:    transparent;
+}
+
+.btn:active {
+     box-shadow: none
+}
