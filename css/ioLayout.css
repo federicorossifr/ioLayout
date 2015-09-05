@@ -73,7 +73,7 @@ header {
 }
 
 .well-footer {
-   padding:2%;
+   padding:1% 1% 1% 2%;
 }
 
 /***********************************************/
@@ -415,4 +415,11 @@ footer {
 
 .btn:active {
      box-shadow: none
+}
+
+.codebox {
+    color:white;
+    background-color:rgba(0,0,0,0.66);
+    word-wrap: break-word;
+    overflow-x: auto;
 }
