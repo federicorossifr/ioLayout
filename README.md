@@ -22,4 +22,4 @@ I recommend to follow Google Material Design color guidelines to achieve a perfe
 <br><br>
 At the moment ioLayout is being developed only by me, and it will be updated soon. I will include more functionalities<br>
 as soon as I figure out them.<br>
-Soon i will provide an <strong>'examples.html'</strong> file with some examples and guidelines to build websites with this little framework.
+I have added a new file called 'examples.html' in which you will find code-explained examples of ioLayout's elements implementation.
